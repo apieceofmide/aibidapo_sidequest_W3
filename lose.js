@@ -17,12 +17,16 @@ function drawLose() {
   textAlign(CENTER, CENTER);
 
   // Main message
-  textSize(40);
-  text("You Lose!", width / 2, 300);
+  textSize(30);
+  text(
+    "You push the Ogre back from the fairies, \ncausing him to tumble back and \ngetting stuck between the trees of the forest",
+    width / 2,
+    300,
+  );
 
   // Instruction text
   textSize(20);
-  text("Click or press R to return to Start.", width / 2, 360);
+  text("Click or press R to return to Start.", width / 2, 460);
 }
 
 // ------------------------------

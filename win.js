@@ -21,12 +21,20 @@ function drawWin() {
   textAlign(CENTER, CENTER);
 
   // Main success message
-  textSize(40);
-  text("You Win!", width / 2, 300);
+  textSize(30);
+  text(
+    "From either your rage, anxiety, gosh who knows, \na magical burst of firey light explodes out of you, \nthe first time anything like this has ever happened. \nThe Ogre is knocked out, dropping the ring it stole \nfrom the fairies behind you",
+    width / 2,
+    300,
+  );
 
   // Instruction text
   textSize(20);
-  text("Click or press R to return to Start.", width / 2, 360);
+  text(
+    "That burst of power wasn't for nothing, the fairies reveal to you that \nthey have been looking for the holder of the \nDragon Flame, which is revealed to be you \n \n\nClick or press R to return to Start.",
+    width / 2,
+    490,
+  );
 }
 
 // ------------------------------------------------------------

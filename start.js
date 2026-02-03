@@ -16,9 +16,13 @@ function drawStart() {
 
   // ---- Title text ----
   fill(30, 50, 60);
-  textSize(46);
+  textSize(20);
   textAlign(CENTER, CENTER);
-  text("Win or Lose", width / 2, 180);
+  text(
+    "You hear a faint scream in the distance. \nShocking you at first, you wonder \nif you should investigate further or run away",
+    width / 2,
+    180,
+  );
 
   // ---- Buttons (data only) ----
   // These objects store the position/size/label for each button.
@@ -29,7 +33,7 @@ function drawStart() {
     y: 320,
     w: 240,
     h: 80,
-    label: "START",
+    label: "Proceed",
   };
 
   const instrBtn = {
@@ -37,7 +41,7 @@ function drawStart() {
     y: 430,
     w: 240,
     h: 80,
-    label: "INSTRUCTIONS",
+    label: "Go Back",
   };
 
   // Draw both buttons

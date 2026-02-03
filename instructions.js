@@ -17,8 +17,12 @@ function drawInstr() {
   // ---- Screen title ----
   fill(0);
   textAlign(CENTER, TOP);
-  textSize(36);
-  text("Instructions", width / 2, 80);
+  textSize(20);
+  text(
+    "You started heading back home. As you walk back, there is a heaviness in your heart, \nas if you missed out on something beyond otherwordly",
+    width / 2,
+    80,
+  );
 
   // ---- Instruction text ----
   textSize(18);
@@ -26,7 +30,7 @@ function drawInstr() {
   // \n creates a line break in the text
   // This is useful for simple multi-line instructions
   const lines =
-    "Press the game button.\n" + "You have a chance to win or lose!";
+    "Your calling may have passed you by,\n" + "but you can always try again!";
 
   text(lines, width / 2, 160);
 
@@ -37,7 +41,7 @@ function drawInstr() {
     y: 560,
     w: 220,
     h: 70,
-    label: "BACK",
+    label: "Try Again",
   };
 
   // Draw the back button

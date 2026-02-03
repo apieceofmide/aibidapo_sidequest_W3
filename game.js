@@ -17,7 +17,7 @@ const gameBtn = {
   y: 550, // y position (centre of the button)
   w: 260, // width
   h: 90, // height
-  label: "PRESS HERE", // text shown on the button
+  label: "Fight Back", // text shown on the button
 };
 
 // ------------------------------
@@ -37,9 +37,9 @@ function drawGame() {
 
   textSize(18);
   text(
-    "Click the button (or press ENTER) for a random result.",
+    "You clear the bushes in front of you to reveal \ntwo mystical beings with tinted wings \nand a yellow Ogre...throwing hands? (You are SO confused that even the \nnarration dropped all formalities) \nYou need to make a decision and quickly",
     width / 2,
-    210,
+    310,
   );
 
   // ---- Draw the button ----

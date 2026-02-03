@@ -1,18 +1,18 @@
 ## Project Title
 
-GBDA302 Week 3 Example 1: Instructions Screen with Back button
+GBDA302 Week 3 Side Quest: A Magical Choice Game
 
 ---
 
 ## Authors
 
-Karen Cochrane and David Han
-
----
+## Ayomide
 
 ## Description
 
-This p5.js project demonstrates a simple multi-screen game structure using a state-based approach. The example includes a start screen, an instructions screen with a back button, a basic game screen, and win/lose outcome screens. The focus is on showing how to separate screens into different files, route input based on the current game state, and design simple UI elements such as buttons and keyboard controls.
+This p5.js project demonstrates a simple multi-screen game structure using a state-based approach. The game includes a start screen that starts the process of a choice based interaction, where each button leads you to a differnet story outcome. The frist two buttons are a "Proceed" button, that leads you to the next part of the game and a "Go Back" button that brings you to the end of your game but an option to "Try Again".
+
+Next, you get a basic game screen with a "Fight Back" option, and then win/lose outcome screen from that "Fight Back" option. This is supposed to be probability based choice game.
 
 ---
 
@@ -34,6 +34,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+New code and comments were not written by GenAI.
 
 ---
