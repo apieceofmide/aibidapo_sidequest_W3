@@ -6,7 +6,7 @@ GBDA302 Week 3 Side Quest: A Magical Choice Game
 
 ## Authors
 
-## Ayomide
+Ayomide Ibidapo
 
 ## Description
 
